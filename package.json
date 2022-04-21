@@ -2,8 +2,8 @@
   "name": "{{name}}",
   "packageManager": "pnpm@6.32.9",
   "scripts": {
-    "dev": "nuxi dev",
-    "build": "nuxi build",
+    "dev": "nuxt dev",
+    "build": "nuxt build",
     "start": "node .output/server/index.mjs",
     "prettier": "prettier --write .",
     "postinstall": "husky install"
