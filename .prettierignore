@@ -9,3 +9,8 @@ lib-cov
 logs
 node_modules
 temp
+.output
+.nuxt
+.env
+
+pnpm-lock.yaml
