@@ -1,6 +1,6 @@
 {
   "name": "{{name}}",
-  "packageManager": "pnpm@7.0.0",
+  "packageManager": "pnpm@7.1.0",
   "scripts": {
     "dev": "nuxt dev",
     "build": "nuxt build",
@@ -18,19 +18,19 @@
   },
   "homepage": "https://github.com/LoTwT/{{name}}#readme",
   "dependencies": {
-    "pinia": "^2.0.13"
+    "pinia": "^2.0.14"
   },
   "devDependencies": {
     "@iconify-json/carbon": "^1.1.4",
     "@iconify-json/twemoji": "^1.1.4",
-    "@nuxtjs/color-mode": "^3.0.2",
-    "@pinia/nuxt": "^0.1.8",
-    "@unocss/nuxt": "^0.32.9",
-    "@vueuse/nuxt": "^8.3.1",
-    "husky": "^7.0.4",
+    "@nuxtjs/color-mode": "^3.0.3",
+    "@pinia/nuxt": "^0.1.9",
+    "@unocss/nuxt": "^0.33.4",
+    "@vueuse/nuxt": "^8.4.2",
+    "husky": "^8.0.1",
     "lint-staged": "^12.4.1",
     "nuxt": "^3.0.0-rc.2",
-    "pnpm": "^7.0.0",
+    "pnpm": "^7.1.0",
     "prettier": "^2.6.2",
     "typescript": "^4.6.4"
   },
