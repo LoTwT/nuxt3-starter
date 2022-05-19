@@ -2,8 +2,10 @@
   "name": "{{name}}",
   "packageManager": "pnpm@7.1.2",
   "scripts": {
-    "dev": "nuxt dev",
-    "build": "nuxt build",
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "generate": "nuxi generate",
+    "preview": "nuxi preview",
     "start": "node .output/server/index.mjs",
     "prettier": "prettier --write .",
     "prepare": "husky install"
