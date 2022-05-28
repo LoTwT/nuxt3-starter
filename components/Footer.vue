@@ -3,7 +3,7 @@
     <NuxtLink i-carbon-campsite to="/" />
     <a
       i-carbon-logo-github
-      href="https://github.com/antfu/vitesse-nuxt3"
+      href="https://github.com/lotwt/nuxt3-starter"
       target="_blank"
     />
     <DarkToggle />

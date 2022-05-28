@@ -14,7 +14,7 @@ const go = () => {
       v-model="name"
       placeholder="What's your name?"
       type="text"
-      autocomplete="false"
+      autocomplete="off"
       p="x-4 y-2"
       m="t-5"
       w="250px"
@@ -25,7 +25,7 @@ const go = () => {
       @keydown.enter="go"
     />
     <div>
-      <button class="m-3 text-sm btn" :disabled="!name" @click="go">GO</button>
+      <button m-3 text-sm btn :disabled="!name" @click="go">GO</button>
     </div>
   </div>
 </template>
