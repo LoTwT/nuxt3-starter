@@ -1,6 +1,6 @@
 {
   "name": "{{name}}",
-  "packageManager": "pnpm@7.2.1",
+  "packageManager": "pnpm@7.5.1",
   "scripts": {
     "dev": "nuxi dev",
     "build": "nuxi build",
@@ -20,21 +20,21 @@
   },
   "homepage": "https://github.com/LoTwT/{{name}}#readme",
   "dependencies": {
-    "pinia": "^2.0.14"
+    "pinia": "^2.0.16"
   },
   "devDependencies": {
-    "@iconify-json/carbon": "^1.1.5",
-    "@iconify-json/twemoji": "^1.1.4",
+    "@iconify-json/carbon": "^1.1.6",
+    "@iconify-json/twemoji": "^1.1.5",
     "@nuxtjs/color-mode": "^3.1.4",
-    "@pinia/nuxt": "^0.1.9",
-    "@unocss/nuxt": "^0.39.0",
-    "@vueuse/nuxt": "^8.6.0",
+    "@pinia/nuxt": "^0.3.0",
+    "@unocss/nuxt": "^0.44.1",
+    "@vueuse/nuxt": "^8.9.2",
     "husky": "^8.0.1",
-    "lint-staged": "^13.0.1",
-    "nuxt": "^3.0.0-rc.4",
-    "pnpm": "^7.2.1",
-    "prettier": "^2.7.0",
-    "typescript": "^4.7.3"
+    "lint-staged": "^13.0.3",
+    "nuxt": "^3.0.0-rc.5",
+    "pnpm": "^7.5.1",
+    "prettier": "^2.7.1",
+    "typescript": "^4.7.4"
   },
   "lint-staged": {
     "*.{js,ts,json,md,vue}": [
