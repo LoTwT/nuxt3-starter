@@ -1,4 +1,4 @@
-# {{name}}
+# pkg-name
 
 A starter template for [Nuxt3](https://v3.nuxtjs.org/).
 
@@ -24,4 +24,4 @@ You can find more awesome nuxt modules in [Explore Nuxt Modules](https://modules
 
 ## use
 
-Please replace `{{name}}` to your target package name, change author and repo infos to yours in `package.json`.
+Please replace `pkg-name` to your target package name, change author and repo infos to yours in `package.json`.

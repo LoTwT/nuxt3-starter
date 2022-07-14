@@ -1,5 +1,5 @@
 {
-  "name": "{{name}}",
+  "name": "pkg-name",
   "packageManager": "pnpm@7.5.1",
   "scripts": {
     "dev": "nuxi dev",
@@ -12,13 +12,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LoTwT/{{name}}.git"
+    "url": "git+https://github.com/LoTwT/pkg-name.git"
   },
   "author": "LoTwT <709937065@qq.com>",
   "bugs": {
-    "url": "https://github.com/LoTwT/{{name}}/issues"
+    "url": "https://github.com/LoTwT/pkg-name/issues"
   },
-  "homepage": "https://github.com/LoTwT/{{name}}#readme",
+  "homepage": "https://github.com/LoTwT/pkg-name#readme",
   "dependencies": {
     "pinia": "^2.0.16"
   },
