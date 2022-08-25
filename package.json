@@ -1,6 +1,6 @@
 {
   "name": "pkg-name",
-  "packageManager": "pnpm@7.9.0",
+  "packageManager": "pnpm@7.9.5",
   "scripts": {
     "dev": "nuxi dev",
     "build": "nuxi build",
@@ -8,7 +8,8 @@
     "preview": "nuxi preview",
     "start": "node .output/server/index.mjs",
     "prettier": "prettier --write .",
-    "prepare": "simple-git-hooks"
+    "prepare": "simple-git-hooks",
+    "up": "taze latest -I"
   },
   "repository": {
     "type": "git",
@@ -20,20 +21,21 @@
   },
   "homepage": "https://github.com/LoTwT/pkg-name#readme",
   "dependencies": {
-    "pinia": "^2.0.18"
+    "pinia": "^2.0.20"
   },
   "devDependencies": {
     "@iconify-json/carbon": "^1.1.7",
     "@iconify-json/twemoji": "^1.1.5",
     "@nuxtjs/color-mode": "^3.1.4",
-    "@pinia/nuxt": "^0.4.0",
-    "@unocss/nuxt": "^0.45.7",
-    "@vueuse/nuxt": "^9.1.0",
+    "@pinia/nuxt": "^0.4.1",
+    "@unocss/nuxt": "^0.45.12",
+    "@vueuse/nuxt": "^9.1.1",
     "lint-staged": "^13.0.3",
     "nuxt": "^3.0.0-rc.8",
-    "pnpm": "^7.9.0",
+    "pnpm": "^7.9.5",
     "prettier": "^2.7.1",
     "simple-git-hooks": "^2.8.0",
+    "taze": "^0.7.6",
     "typescript": "^4.7.4"
   },
   "simple-git-hooks": {
