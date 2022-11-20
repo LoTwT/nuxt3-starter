@@ -1,43 +1,33 @@
 {
-  "name": "pkg-name",
-  "packageManager": "pnpm@7.12.2",
+  "private": true,
+  "packageManager": "pnpm@7.16.1",
   "scripts": {
-    "dev": "nuxi dev -o -p 3333",
     "build": "nuxi build",
-    "generate": "nuxi generate",
-    "preview": "nuxi preview",
+    "dev": "nuxi dev -o",
     "start": "node .output/server/index.mjs",
+    "lint": "prettier -c .",
     "prettier": "prettier --write .",
+    "typecheck": "tsc --noEmit",
+    "postinstall": "nuxi prepare",
+    "generate": "nuxi generate",
     "prepare": "simple-git-hooks",
-    "up": "taze latest -I",
-    "nuxi:up": "nuxi upgrade --force"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/LoTwT/pkg-name.git"
-  },
-  "author": "LoTwT <709937065@qq.com>",
-  "bugs": {
-    "url": "https://github.com/LoTwT/pkg-name/issues"
-  },
-  "homepage": "https://github.com/LoTwT/pkg-name#readme",
-  "dependencies": {
-    "pinia": "^2.0.22"
+    "up": "taze latest -I"
   },
   "devDependencies": {
-    "@iconify-json/carbon": "^1.1.8",
+    "@iconify-json/carbon": "^1.1.10",
     "@iconify-json/twemoji": "^1.1.5",
-    "@nuxtjs/color-mode": "^3.1.6",
-    "@pinia/nuxt": "^0.4.2",
-    "@unocss/nuxt": "^0.45.22",
-    "@vueuse/nuxt": "^9.2.0",
+    "@nuxtjs/color-mode": "^3.1.8",
+    "@pinia/nuxt": "^0.4.3",
+    "@unocss/nuxt": "^0.46.5",
+    "@vueuse/nuxt": "^9.5.0",
     "lint-staged": "^13.0.3",
-    "nuxt": "3.0.0-rc.11",
-    "pnpm": "^7.12.2",
+    "nuxt": "^3.0.0",
+    "pinia": "^2.0.23",
+    "pnpm": "^7.16.1",
     "prettier": "^2.7.1",
-    "simple-git-hooks": "^2.8.0",
-    "taze": "^0.8.1",
-    "typescript": "^4.8.3"
+    "simple-git-hooks": "^2.8.1",
+    "taze": "^0.8.4",
+    "typescript": "^4.9.3"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm exec lint-staged"

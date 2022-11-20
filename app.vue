@@ -1,6 +1,6 @@
-<script setup lang="ts">
+<script setup>
 useHead({
-  title: "Nuxt3 starter",
+  title: "Vitesse Nuxt 3",
   link: [
     {
       rel: "icon",
@@ -12,10 +12,9 @@ useHead({
 </script>
 
 <template>
-  <main class="py-20 px-10 text-center">
+  <NuxtLayout>
     <NuxtPage />
-    <Footer />
-  </main>
+  </NuxtLayout>
 </template>
 
 <style>
