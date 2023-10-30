@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const route = useRoute()
+const route = useRoute<"hi-id">()
 const user = useUserStore()
 const name = route.params.id
 
@@ -16,16 +16,16 @@ definePageMeta({
   <div>
     <div
       i-twemoji:waving-hand
-      text-4xl
       inline-block
       animate-shake-x
       animate-duration-5000
+      text-4xl
     />
     <h3 text-2xl font-500>Hi,</h3>
     <div text-xl>{{ name }}!</div>
 
-    <template v-if="user.otherNames.length">
-      <div text-sm my-4>
+    <template v-if="user.otherNames.length > 0">
+      <div my-4 text-sm>
         <span op-50>Also as known as:</span>
         <ul>
           <li v-for="otherName in user.otherNames" :key="otherName">
@@ -40,7 +40,7 @@ definePageMeta({
     <Counter />
 
     <div>
-      <NuxtLink class="btn m-3 text-sm" to="/"> Back </NuxtLink>
+      <NuxtLink class="m-3 text-sm btn" to="/"> Back </NuxtLink>
     </div>
   </div>
 </template>

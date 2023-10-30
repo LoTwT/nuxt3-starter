@@ -12,4 +12,4 @@ By default, `default.vue` will be used unless an alternative is specified in the
 </script>
 ```
 
-Learn more on https://v3.nuxtjs.org/guide/directory-structure/layouts
+Learn more on https://nuxt.com/docs/guide/directory-structure/layouts
